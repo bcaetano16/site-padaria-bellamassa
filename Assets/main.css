@@ -1,0 +1,107 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    background-color: #7c1331;
+}
+
+#cabecalho .nav .nav-link.active{
+background-color: #fff;
+    color: #7c1331  ;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+
+.navbar-toggler{
+    background-color: #ECD2DF;
+}
+
+.carousel-inner img{
+    width: 100%;
+    max-height: 400px;
+}
+
+.section-tittle{
+
+    font-family:'Fasthand', cursive;
+}
+
+#sobre-o-restaurante, #cardapio{
+    background-color: #ECD2DF;
+}
+
+/*.row img{
+    height: 300px;
+}*/
+
+.text-colored{
+    color: #7c1331  ;
+}
+
+.nav-cardapio .nav-link.active, 
+#fale-conosco button{
+background-color: #7c1331;
+color: #fff;
+}
+
+#fale-conosco button:hover{
+    background-color: #bd0040;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #7c1331;
+}
+
+.social-links li, a{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+.social-links li a i:hover{
+    color: #bd0040;
+}
+
+.col-md-7 form{
+    width: 70%;
+}
+
+.col-md-5{
+    width: 35%;
+}
+
+#endereco{
+    color: #7c1331;
+    text-decoration: none;
+}
+
+#endereco:hover{
+    color: #bd0040;
+}
+
+#eventos img{
+    height: 356px;
+}
+
+#padaria img{
+    height: 213px;
+}
+
+#pratos-principais img{
+    height: 160px;
+}
+
+@media (max-width:767px){
+
+.carousel-item img{
+    height: 280px;
+}
+
+}
