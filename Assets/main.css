@@ -3,12 +3,12 @@ body{
 }
 
 .navbar{
-    background-color: #7c1331;
+    background-color: #960206;
 }
 
 #cabecalho .nav .nav-link.active{
 background-color: #fff;
-    color: #7c1331  ;
+    color: #960206  ;
 }
 
 #cabecalho .nav .nav-link,
@@ -31,6 +31,7 @@ background-color: #fff;
 .section-tittle{
 
     font-family:'Fasthand', cursive;
+    font-size: 32px;
 }
 
 #sobre-o-restaurante, #cardapio{
@@ -42,21 +43,21 @@ background-color: #fff;
 }*/
 
 .text-colored{
-    color: #7c1331  ;
+    color: #960206  ;
 }
 
 .nav-cardapio .nav-link.active, 
 #fale-conosco button{
-background-color: #7c1331;
+background-color: #960206;
 color: #fff;
 }
 
 #fale-conosco button:hover{
-    background-color: #bd0040;
+    background-color: #960206;
 }
 
 .nav-cardapio .nav-link:hover{
-    color: #7c1331;
+    color: #960206;
 }
 
 .social-links li, a{
@@ -78,7 +79,7 @@ color: #fff;
 }
 
 #endereco{
-    color: #7c1331;
+    color: #960206;
     text-decoration: none;
 }
 
@@ -104,4 +105,34 @@ color: #fff;
     height: 280px;
 }
 
+.row>*{
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
 }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+
+.col-md-5{
+    width: 40%;
+}
+
+#logo-belamassa{
+    width: 100%;
+}
+
+#eventos img, #padaria img {
+    height: 50%;
+    margin-left: 16px;
+}
+
+}
+
+
+
